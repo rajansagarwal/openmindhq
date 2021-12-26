@@ -70,12 +70,11 @@ const Split = () => {
             alignItems="center"
             justifyContent="center"
             px={5}
-            py={3}
             border="solid transparent"
             fontWeight="bold"
             w="full"
             rounded="md"
-            color={useColorModeValue("white")}
+            color="white"
             bg={useColorModeValue("gray.900", "brand.500")}
             _hover={{
               bg: useColorModeValue("gray.800", "brand.600"),
@@ -130,12 +129,11 @@ const Split = () => {
             alignItems="center"
             justifyContent="center"
             px={5}
-            py={3}
             border="solid transparent"
             fontWeight="bold"
             w="full"
             rounded="md"
-            color={useColorModeValue("white")}
+            color="white"
             bg={useColorModeValue("gray.900", "brand.500")}
             _hover={{
               bg: useColorModeValue("gray.800", "brand.600"),

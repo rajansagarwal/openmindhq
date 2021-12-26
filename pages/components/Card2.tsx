@@ -16,7 +16,6 @@ const Card2 = () => {
       fontFamily="heading"
       alignItems="center"
       justifyContent="center"
-      fontFamily="heading"
     >
       <Box
         w="full"
@@ -95,7 +94,6 @@ const Card2 = () => {
       fontFamily="heading"
       alignItems="center"
       justifyContent="center"
-      fontFamily="heading"
     >
       <Box
         w="full"
@@ -174,7 +172,6 @@ const Card2 = () => {
       fontFamily="heading"
       alignItems="center"
       justifyContent="center"
-      fontFamily="heading"
     >
       <Box
         w="full"
@@ -253,7 +250,6 @@ const Card2 = () => {
       fontFamily="heading"
       alignItems="center"
       justifyContent="center"
-      fontFamily="heading"
     >
       <Box
         w="full"

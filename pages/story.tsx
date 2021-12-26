@@ -1,8 +1,5 @@
 import { ReactNode } from 'react';
-import Navbar from './components/Navbar'
 import StoryHero from './components/StoryHero'
-import About from './components/About'
-import Feature from './components/Feature'
 import Describe from './components/Describe'
 import Footer from './components/Footer'
 import Head from 'next/head'
