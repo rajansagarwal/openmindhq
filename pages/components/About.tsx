@@ -10,11 +10,12 @@ import {
   Icon,
   Button,
 } from "@chakra-ui/react";
+import type { AppProps } from 'next/app'
 
 export default function About() {
   const topBg = useColorModeValue("gray.100", "gray.700");
   const bottomBg = useColorModeValue("white", "gray.800");
-  const Feature = (props) => {
+  const Feature = (props: AppProps) => {
     return (
       <Flex align="center">
         <Flex shrink={0}>
