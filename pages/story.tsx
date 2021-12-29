@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
-import StoryHero from './components/StoryHero'
-import Describe from './components/Describe'
-import Footer from './components/Footer'
+import StoryHero from '../components/StoryHero'
+import Describe from '../components/Describe'
+import Footer from '../components/Footer'
 import Head from 'next/head'
 
 export default function Story() {

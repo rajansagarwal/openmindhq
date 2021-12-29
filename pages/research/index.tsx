@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
-import ResearchHero from '../components/ResearchHero'
-import Card2 from '../components/Card2'
-import Footer from '../components/Footer'
+import ResearchHero from '../../components/ResearchHero'
+import Card2 from '../../components/Card2'
+import Footer from '../../components/Footer'
 import Head from 'next/head'
 
 export default function Research() {
