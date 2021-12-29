@@ -16,6 +16,7 @@ export default function Hero() {
       backgroundImage={
         'url(https://64.media.tumblr.com/5483349b57562ffb033883833abf17f4/tumblr_opa48s2I7e1qeyvpto1_500.gifv)'
       }
+      fontFamily="worksans"
       backgroundSize={'cover'}
       backgroundPosition={'center center'}>
       <VStack

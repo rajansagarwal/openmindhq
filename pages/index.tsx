@@ -23,10 +23,9 @@ export default function Home() {
     <AltHero/>
     <Read/>
     <Describe/>
-    <CTA/>
     <Standout/>
-    <Card/><br/><br/>
-    <Split/>
+    <Card/>
+     <CTA/><br/>
     <Footer/>
 
     </>

@@ -49,7 +49,7 @@ const Hero = () => {
               color={'white'}
               _hover={{ bg: 'whiteAlpha.200' }}>
               <Link href="/research">
-              Open Mind / Research / Generative Art
+              Research / Generative Art
               </Link>
             </Button>
             </Stack><br/>

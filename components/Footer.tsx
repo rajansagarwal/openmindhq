@@ -104,7 +104,6 @@ export default function Footer() {
             <Link href={'#'}>Home</Link>
             <Link href={'#'}>Story</Link>
             <Link href={'#'}>Research</Link>
-            <Link href={'#'}>Impact</Link>
             <Link href={'#'}>Opportunities</Link>
           </Stack>
           <Stack align={'flex-start'}>
@@ -112,7 +111,6 @@ export default function Footer() {
             <Link href={'#'}>Twitter</Link>
             <Link href={'#'}>Github</Link>
             <Link href={'#'}>Instagram</Link>
-            <Link href={'#'}>OpenSea</Link>
             <Link href={'#'}>Linkedin</Link>
           </Stack>
           <Stack align={'flex-start'}>

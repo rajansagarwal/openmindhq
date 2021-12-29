@@ -9,6 +9,7 @@ import {
   Avatar,
   useColorModeValue,
 } from '@chakra-ui/react';
+import Image from 'next/image';
 
 const Testimonial = ({ children }: { children: ReactNode }) => {
   return <Box>{children}</Box>;
@@ -96,7 +97,7 @@ export default function Content() {
       </Container>
       <Stack
       bg="black"
-      py={16}
+      py={8}
       color="white"
       px={6}
       spacing={{ base: 8, md: 10 }}
@@ -112,9 +113,35 @@ export default function Content() {
         textAlign={'left'}
         fontFamily="heading"
         maxW={{ base: '6xl', md: '6xl' }}><strong>ABSTRACT</strong></Text><br/>
-        Autonomous systems and algorithmic art are critical to this new era of digital expression. In its independent form, generative art redefines the purpose of computer output; current interfaces are tailored to human interaction, but never human expression. Computational devices may not have emotions, but the use of neural networks and deep learning have incredible ability to interpret and design frameworks around these considerations. Through the development and adaptation of VQGAN+CLIP, this AI system can interpret poetry to develop meaningful, generative art.<br/><br/>Literary expression has transformed language into a form of art. The use of poetry and rhythmic patterns allow for individuals to share a message—from a graphical standpoint, this reduces the capability of standard communication and expression. Poetry and
+        Autonomous systems and algorithmic art are critical to this new era of digital expression. In its independent form, generative art redefines the purpose of computer output; current interfaces are tailored to human interaction, but never human expression. Computational devices may not have emotions, but the use of neural networks and deep learning have incredible ability to interpret and design frameworks around these considerations. Through the development and adaptation of VQGAN+CLIP, this AI system can interpret poetry to develop meaningful, generative art.<br/><br/>Literary expression has transformed language into a form of art. The use of poetry and rhythmic patterns allow for individuals to share a message—from a graphical standpoint, this reduces the capability of standard communication and expression. Poetic interpretation, in this context, requires the analysis of key visual aspects that can create meaningful prompts. A z-quantized neural network is subsequently applied to develop custom artworks that reflect this expression. This is critical for machine evolution, to ensure accuracy in the development and production of static generative art & motion graphics.<br/><br/>The z+quantize method allows for motion graphics for generative art—quantization algorithms utilize range-based linear methods asymmetrically, which maps the minimum and maximum points using a quantization bias. The convolution layer allows for the range to be used extensively, creating distinct min/max points for the resultant graphic to be placed in. This system also allows for keyframes and animations to be implemented. In terms of developing the graphics themselves, the neural network introduces a text to image paradigm, by combining GAN architectures with OpenAI’s CLIP system. The Vector Quantized Generative Adversarial Network (VQGAN), utilizes these convolutional neural networks with a Contrastive Language-Image Pre-training (CLIP) model, to create supervised learning for visual models. The two models work simultaneously, to compile countless interpretations of the prompt, and subsequently compare this graphic to the prompt to identify its respective accuracy.<br/><br/>
       </Text>
     </Stack>
+    <img src="https://cloud-r2onbrszd-hack-club-bot.vercel.app/0image.png" alt=""/><br/><br/>
+    <Stack
+      bg="black"
+      py={8}
+      color="white"
+      px={6}
+      spacing={{ base: 8, md: 10 }}
+      align={'center'}
+      fontFamily="cabin"
+      direction={'column'}>
+      <Text
+        fontSize={{ base: 'xl', md: '2xl' }}
+        textAlign={'left'}
+        maxW={'5xl'}>
+        <Text
+        fontSize={{ base: 'xl', md: '3xl' }}
+        textAlign={'left'}
+        fontFamily="heading"
+        maxW={{ base: '6xl', md: '6xl' }}><strong>THE PROCESS</strong></Text><br/>
+        While the results may be visually appealing, the neural networks endure a difficult process to develop the images. A GAN is a generative adversarial network, which has two distinct neural networks work together; CLIP acts as the third neural network which compares the result to an accurate representation of the prompt. More specifically, CLIP perceives a good representation of the image and VQGAN generates and evolves the image. The evolution of graphics exist as iterations, most often 200 iterations at ~3s/iteration. The very first iteration is a noisy image, as seen in most GAN architecture, such that a compilation of graphics based on the prompt are compiled; this is then evolves based on previous generations. <br/><br/>
+        <img src="https://file.heyrajan.com/neuralnetwork.png"/><br/>
+      In action, these three neural networks develop iterations that evolve on eachother. The first step is to compile several images based on the words, such that a noisy & random image is created (first iteration). Due to the supervised learning, this image has no representation of
+        <br/><br/><img src="https://file.heyrajan.com/bananasinspace.png"/>
+      </Text>
+    </Stack>
+    
     </Box>
   );
 }

@@ -61,9 +61,7 @@ const Card2 = () => {
             mt={2}
             color={useColorModeValue("gray.400", "gray.400")}
           >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
-            eligendi similique exercitationem optio libero vitae accusamus
-            cupiditate laborum eos.
+            Software is changing the world, what if it could change the way we express oureslves? Autonomous systems and algorithmic art are critical to this new era of digital expression.
           </chakra.p>
         </Box>
 
