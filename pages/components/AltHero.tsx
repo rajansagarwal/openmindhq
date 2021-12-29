@@ -39,7 +39,7 @@ export default function Hero() {
             fontWeight={700}
             lineHeight={1.2}
             textAlign={'center'}
-            fontfamily='worksans'
+            fontFamily='worksans'
             fontSize={useBreakpointValue({ base: '3xl', md: '6xl' })}>
             <strong>
             Build The Change You Wish To See In The World

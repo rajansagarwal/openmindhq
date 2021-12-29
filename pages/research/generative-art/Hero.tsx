@@ -108,7 +108,7 @@ const Hero = () => {
       </Flex>
       <Box>
         <Image
-          src="https://thoughtsincolour.heyrajan.com/content/tranquility.png"
+          src="https://thoughtsincolour.heyrajan.com/content/midnight.png"
           alt="Poetry Cover Image"
           fit="cover"
           w="full"

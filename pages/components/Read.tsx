@@ -84,7 +84,7 @@ const Read = () => {
           </Button>
         </Stack>
       </Box>
-      <Box
+      {/*<Box
         w={{ base: "full", md: 10 / 12 }}
         mx="auto"
         mt={20}
@@ -97,7 +97,7 @@ const Read = () => {
           src="https://media1.giphy.com/media/5mYcsVrgxtxt7QUc55/200.gif"
           alt="Hellonext feedback boards software screenshot"
         />
-      </Box>
+      </Box>*/}
     </Box>
   );
 };

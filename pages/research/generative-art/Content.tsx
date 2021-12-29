@@ -90,7 +90,7 @@ export default function Content() {
     <Box bg="black" color="white">
       <Container maxW={'5xl'} py={16} as={Stack} spacing={12}>
         <Stack spacing={0} align={'center'} alignItems={'center'} textAlign={'center'}>
-          <Heading fontFamily="heading">Software is changing the world, what if it could change the way we express ourselves?</Heading>
+          <Heading fontFamily="cabin">Software is changing the world, what if it could change the way we express ourselves?</Heading>
         </Stack>
         
       </Container>
@@ -101,7 +101,7 @@ export default function Content() {
       px={6}
       spacing={{ base: 8, md: 10 }}
       align={'center'}
-      fontFamily="heading"
+      fontFamily="cabin"
       direction={'column'}>
       <Text
         fontSize={{ base: 'xl', md: '2xl' }}
@@ -112,7 +112,7 @@ export default function Content() {
         textAlign={'left'}
         fontFamily="heading"
         maxW={{ base: '6xl', md: '6xl' }}><strong>ABSTRACT</strong></Text><br/>
-        We work on We work on We work on We work on We work on We work on We work on We work on We work on 
+        Autonomous systems and algorithmic art are critical to this new era of digital expression. In its independent form, generative art redefines the purpose of computer output; current interfaces are tailored to human interaction, but never human expression. Computational devices may not have emotions, but the use of neural networks and deep learning have incredible ability to interpret and design frameworks around these considerations. Through the development and adaptation of VQGAN+CLIP, this AI system can interpret poetry to develop meaningful, generative art.<br/><br/>Literary expression has transformed language into a form of art. The use of poetry and rhythmic patterns allow for individuals to share a message—from a graphical standpoint, this reduces the capability of standard communication and expression. Poetry and
       </Text>
     </Stack>
     </Box>

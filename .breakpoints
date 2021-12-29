@@ -3,16 +3,16 @@
     "pages/components/AltHero.tsx": [
       {
         "id": "672d24c9-3d51-458b-af87-6e807c77eea9",
-        "line": 18,
-        "version": 292,
-        "index": 364
+        "line": 85,
+        "version": 306,
+        "index": 2355
       }
     ],
     "pages/index.tsx": [
       {
         "id": "547c2951-be63-4118-a7b2-0a4a32c67274",
         "line": 9,
-        "version": 967,
+        "version": 969,
         "index": 352
       }
     ]

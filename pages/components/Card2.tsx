@@ -69,7 +69,7 @@ const Card2 = () => {
 
        <Box mt={8}>
             <Link
-              
+              href="/research/generative-art"
               bg="gray.900"
               color="gray.100"
               px={5}
@@ -147,7 +147,7 @@ const Card2 = () => {
 
         <Box mt={8}>
             <Link
-              
+              href="/research/generative-art"
               bg="gray.900"
               color="gray.100"
               px={5}
@@ -225,7 +225,7 @@ const Card2 = () => {
 
         <Box mt={8}>
             <Link
-              
+              href="/research/generative-art"
               bg="gray.900"
               color="gray.100"
               px={5}
@@ -303,7 +303,7 @@ const Card2 = () => {
 
         <Box mt={8}>
             <Link
-              
+              href="/research/generative-art"
               bg="gray.900"
               color="gray.100"
               px={5}
