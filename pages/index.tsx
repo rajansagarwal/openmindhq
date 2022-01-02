@@ -1,5 +1,4 @@
 import { ReactNode } from 'react';
-import Hero from '../components/Hero'
 import Read from '../components/Read'
 import Feature from '../components/Feature'
 import Split from '../components/Split'
@@ -20,11 +19,11 @@ export default function Home() {
 <title>Open Mind AI</title>
 <meta name="theme-color" content="#000000"/>
 </Head>
-    <AltHero/>
+    <AltHero/><br/>
     <Read/>
-    <Describe/>
-    <Standout/>
     <Card/>
+    <Card2/>
+    <Card2/>
      <CTA/><br/>
     <Footer/>
 

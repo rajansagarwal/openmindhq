@@ -16,9 +16,8 @@ const Card = () => {
     <Col>
     <Flex
       bg={useColorModeValue("#000000", "gray.600")}
-      p={30}
+      py={30}
       px={0}
-      w="full"
       fontFamily="heading"
       alignItems="center"
       justifyContent="center"
@@ -30,7 +29,7 @@ const Card = () => {
         rounded="lg"
         shadow="lg"
         bg={useColorModeValue("gray.800", "gray.800")}
-        maxW="2xl"
+        maxW="3xl"
       >
         <Flex justifyContent="space-between" alignItems="center">
           <chakra.span
@@ -108,7 +107,7 @@ const Card = () => {
         rounded="lg"
         shadow="lg"
         bg={useColorModeValue("gray.800", "gray.800")}
-        maxW="2xl"
+        maxW="3xl"
       >
         <Flex justifyContent="space-between" alignItems="center">
           <chakra.span

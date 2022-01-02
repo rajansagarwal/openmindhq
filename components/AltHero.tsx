@@ -12,7 +12,7 @@ export default function Hero() {
   return (
     <Flex
       w={'full'}
-      h={'77vh'}
+      h={'60vh'}
       backgroundImage={
         'url(https://64.media.tumblr.com/c3e2da7367ed718b4ef628a244cd9129/tumblr_p4o3bnVtto1qeyvpto1_500.gifv)'
       }
@@ -46,7 +46,7 @@ export default function Hero() {
             </strong>
           </Text>
           
-          <Stack direction={'row'}>
+         {/* <Stack direction={'row'}>
             <Button
               bg={'whiteAlpha.300'}
               rounded={'full'}
@@ -54,7 +54,7 @@ export default function Hero() {
               color={'white'}
               _hover={{ bg: 'whiteAlpha.500' }}>
               <Link href="/research">
-              Research
+              Philosophy
               </Link>
             </Button>
             <Button
@@ -77,7 +77,7 @@ export default function Hero() {
               Story
               </Link>
             </Button>
-          </Stack>
+          </Stack>*/}
         </Stack>
       </VStack>
     </Flex>

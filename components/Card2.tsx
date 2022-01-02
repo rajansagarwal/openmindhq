@@ -10,7 +10,7 @@ const Card2 = () => {
     <Col>
     <Flex
       bgGradient='linear(to-r, #000000, #000000)'
-      p={30}
+      py={30}
       px={0}
       w="full"
       fontFamily="heading"
@@ -19,8 +19,8 @@ const Card2 = () => {
     >
       <Box
         w="full"
-        maxW="sm"
-        mx="auto"
+        maxW="lg"
+        mx="0"
         px={4}
         py={3}
         bg={useColorModeValue("gray.800", "alphaWhite.200")}
